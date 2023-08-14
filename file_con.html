@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="file_con.css">
+</head>
+<body>
+    <div class="container">
+
+        <img id="showImg" src="images/img.png">
+      
+       <div class="button">
+         <div class="upload">
+          <input type="file" onChange="loadFile(event)" name="" accept=".png, .jpg, .jpeg">
+          Upload Image
+        </div>
+        <button onClick="pdfDown()">Download To PDF</button>
+      </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+    <script src="file_con.js"></script>
+</body>
+</html>
